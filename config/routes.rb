@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   root "root#index"
 
   get '/response', to: "root#api"
+  get '/user/:id/:name', to: 'root#user'
 
 end
