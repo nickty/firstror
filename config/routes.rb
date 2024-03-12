@@ -9,7 +9,9 @@ Rails.application.routes.draw do
   # root "posts#index"
   get '/about', to: "root#about"
   get '/mizan', to: "root#mizan"
-  get '/index', to: "root#index"
+  # get '/index', to: "root#index"
   root "root#index"
+
+  get '/response', to: "root#api"
 
 end
