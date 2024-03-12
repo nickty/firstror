@@ -8,5 +8,9 @@ class RootController < ApplicationController
         puts "mizan"
         render "mizan"
     end 
+
+    def index
+        render "index"
+    end
     
 end
