@@ -15,4 +15,8 @@ Rails.application.routes.draw do
   get '/response', to: "root#api"
   get '/user/:id/:name', to: 'root#user'
 
+  post '/add', to: "root#add"
+
+  # delete '/delete/:id', to: "root#delete"
+
 end
